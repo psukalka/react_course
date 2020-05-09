@@ -18,3 +18,12 @@ class Tweet {
   - When we change state of a component, we get a new React Element . Only the part that is updated is synced with actual DOM 
   - Thus, changing state of a component will automatically update the DOM to match that state. Thus the name : `React` --> `Reacts to state changes
 `
+--------------------------------
+- `Component` is the built-in class of React
+- `render()` : returns a markup called JSX (JS XML)
+- to make this code work, it has to pass through [Babel](https://babeljs.io/repl) (modern JS compiler). It converts JSX to JS that browsers can understand
+
+- Even though, we don't use `React` in our code, it needs to be imported because it will be used in Babel-converted code.
+- `ReactDOM` is used to render in actual DOM
+
+--------------------------------
