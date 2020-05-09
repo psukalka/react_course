@@ -5,7 +5,7 @@
 - developed at FB in 2011
 
 ## Architecture
-- At the heart are components
+- At the heart are `Components`
 - At least one component (called Root component) in each application
 - Read more [here](./docs/component.md)
 
@@ -16,4 +16,4 @@
 - This also means you need to depend on other libraries for routing, calling HTTP services, ... Thus, you have freedom to choose what you need rather than being fixed with a framework (good or bad, decide for yourself)
 
 ## Setup
-
+- Find setup for development [here](./docs/setup.md)
