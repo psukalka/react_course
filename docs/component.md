@@ -27,3 +27,11 @@ class Tweet {
 - `ReactDOM` is used to render in actual DOM
 
 --------------------------------
+
+- JSX should be inside one parent div or tag. Otherwise babel won't know how to compile it
+- Using Arrow function `=>` is simpler than binding each function in constructor
+- Always use `setState()` method to update state. Direct update might not work as objects are immutable in React
+- If you need to pass event arguments to a function do so by arrow function syntax:
+```sh
+onClick={() => this.handleIncrement(product)}
+```
