@@ -35,3 +35,7 @@ class Tweet {
 ```sh
 onClick={() => this.handleIncrement(product)}
 ```
+
+--------------------------------
+- Component that owns the data should be the one modifying it
+
